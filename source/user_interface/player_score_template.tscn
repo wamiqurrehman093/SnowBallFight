@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpol306futkxv"]
+
+[ext_resource type="Script" path="res://source/user_interface/player_score_template.gd" id="1_8mqxu"]
+
+[node name="player_score_template" type="HBoxContainer"]
+theme_override_constants/separation = 8
+script = ExtResource("1_8mqxu")
+
+[node name="number" type="Label" parent="."]
+custom_minimum_size = Vector2(82, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "1"
+horizontal_alignment = 1
+
+[node name="name" type="Label" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 24
+text = "Some Player"
+text_overrun_behavior = 1
+
+[node name="kills" type="Label" parent="."]
+custom_minimum_size = Vector2(82, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "0"
+horizontal_alignment = 1
+
+[node name="deaths" type="Label" parent="."]
+custom_minimum_size = Vector2(82, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "0"
+horizontal_alignment = 1
+
+[node name="score" type="Label" parent="."]
+custom_minimum_size = Vector2(82, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "0"
+horizontal_alignment = 1

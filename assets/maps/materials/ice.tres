@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dsayj4ylg1bjt"]
+
+[resource]
+resource_name = "ice"
+cull_mode = 2
+albedo_color = Color(0.579436, 0.896898, 0.92101, 1)
+roughness = 0.15

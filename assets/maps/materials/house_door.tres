@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://pktlbmvrk6n7"]
+
+[resource]
+resource_name = "house_door"
+cull_mode = 2
+albedo_color = Color(0.993667, 0.936355, 0.832474, 1)
+roughness = 0.8
+emission_enabled = true
+emission = Color(1, 1, 1, 1)

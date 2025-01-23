@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b0exsx4rwxd5e"]
+
+[resource]
+resource_name = "pizza_shop_walls"
+cull_mode = 2
+albedo_color = Color(1, 0.578045, 0.457485, 1)
+roughness = 0.5

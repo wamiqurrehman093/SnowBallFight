@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dp3ma02hguvax"]
+
+[resource]
+resource_name = "ice_cream_holder"
+cull_mode = 2
+albedo_color = Color(0.645558, 0.413014, 0.184387, 1)
+roughness = 0.9

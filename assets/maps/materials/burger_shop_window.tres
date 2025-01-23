@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d21jr7n6fv7ja"]
+
+[resource]
+resource_name = "burger_shop_window"
+cull_mode = 2
+albedo_color = Color(0.90588, 0.866667, 0.627451, 1)
+roughness = 0.2
+emission_enabled = true
+emission = Color(1, 0.956946, 0.694299, 1)
+emission_energy_multiplier = 1.5982

@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://gcaw6n7ppj6b"]
+
+[resource]
+resource_name = "burger_salad"
+cull_mode = 2
+albedo_color = Color(0.608523, 0.822785, 0.514314, 1)
+roughness = 0.9

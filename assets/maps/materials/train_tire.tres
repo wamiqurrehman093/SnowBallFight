@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cvdvbb00j0p84"]
+
+[resource]
+resource_name = "train_tire"
+cull_mode = 2
+albedo_color = Color(0.544297, 0.412671, 0.148204, 1)
+roughness = 0.9

@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dgd7vkyvgjv8t"]
+
+[resource]
+resource_name = "school_billboard"
+cull_mode = 2
+albedo_color = Color(0.22839, 0.567393, 0.797738, 1)
+roughness = 0.8

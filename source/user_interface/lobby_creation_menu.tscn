@@ -1,0 +1,131 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwtgpurh83e1"]
+
+[ext_resource type="Script" path="res://source/user_interface/lobby_creation_menu.gd" id="1_40bf6"]
+
+[node name="lobby_creation_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_40bf6")
+
+[node name="background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.784314)
+
+[node name="panel" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(640, 360)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -320.0
+offset_top = -180.0
+offset_right = 320.0
+offset_bottom = 180.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.760784, 0.886275, 0.956863, 1)
+
+[node name="margin_container" type="MarginContainer" parent="panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="content" type="VBoxContainer" parent="panel/margin_container"]
+layout_mode = 2
+
+[node name="title" type="Label" parent="panel/margin_container/content"]
+layout_mode = 2
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 32
+text = "Create Lobby"
+horizontal_alignment = 1
+
+[node name="lobby_info" type="VBoxContainer" parent="panel/margin_container/content"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 32
+alignment = 1
+
+[node name="name" type="HBoxContainer" parent="panel/margin_container/content/lobby_info"]
+layout_mode = 2
+
+[node name="label" type="Label" parent="panel/margin_container/content/lobby_info/name"]
+custom_minimum_size = Vector2(240, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Name"
+
+[node name="line_edit" type="LineEdit" parent="panel/margin_container/content/lobby_info/name"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+text = "Some Lobby 1"
+
+[node name="password" type="HBoxContainer" parent="panel/margin_container/content/lobby_info"]
+layout_mode = 2
+
+[node name="label" type="Label" parent="panel/margin_container/content/lobby_info/password"]
+custom_minimum_size = Vector2(240, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Password (optional)"
+
+[node name="line_edit" type="LineEdit" parent="panel/margin_container/content/lobby_info/password"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+secret = true
+
+[node name="max_players" type="HBoxContainer" parent="panel/margin_container/content/lobby_info"]
+layout_mode = 2
+
+[node name="label" type="Label" parent="panel/margin_container/content/lobby_info/max_players"]
+custom_minimum_size = Vector2(240, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Max Players"
+
+[node name="spin_box" type="SpinBox" parent="panel/margin_container/content/lobby_info/max_players"]
+layout_mode = 2
+size_flags_horizontal = 3
+min_value = 2.0
+max_value = 10.0
+value = 2.0
+alignment = 1
+
+[node name="actions" type="HBoxContainer" parent="panel/margin_container/content"]
+layout_mode = 2
+alignment = 1
+
+[node name="cancel" type="Button" parent="panel/margin_container/content/actions"]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Cancel"
+
+[node name="create" type="Button" parent="panel/margin_container/content/actions"]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Create"

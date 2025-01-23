@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dbxg073qcceig"]
+
+[resource]
+resource_name = "train_bin_window"
+cull_mode = 2
+albedo_color = Color(0.906332, 0.906332, 0.906332, 1)
+roughness = 0.3
+emission_enabled = true
+emission = Color(1, 1, 1, 1)

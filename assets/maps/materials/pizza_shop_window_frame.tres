@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bv83riboeyj34"]
+
+[resource]
+resource_name = "pizza_shop_window_frame"
+cull_mode = 2
+albedo_color = Color(0.484529, 0.484529, 0.484529, 1)
+roughness = 0.2

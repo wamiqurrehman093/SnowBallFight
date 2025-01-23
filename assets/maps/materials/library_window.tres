@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://hhj8bpu5d4rn"]
+
+[resource]
+resource_name = "library_window"
+cull_mode = 2
+albedo_color = Color(1, 0.963056, 0.508439, 1)
+roughness = 0.1
+emission_enabled = true
+emission = Color(1, 0.955814, 0.445197, 1)
+emission_energy_multiplier = 2.0

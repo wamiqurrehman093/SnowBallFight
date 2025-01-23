@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3fxdg6sfpx0r"]
+
+[ext_resource type="ArrayMesh" uid="uid://bw7qbbvgdukkk" path="res://assets/models/snow_gun.mesh" id="1_koyax"]
+
+[node name="snow_gun" type="Node3D"]
+
+[node name="mesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0)
+mesh = ExtResource("1_koyax")
+skeleton = NodePath("")

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://8o7m7gl8ef6t"]
+
+[resource]
+resource_name = "train_bin_roof"
+cull_mode = 2
+roughness = 0.8

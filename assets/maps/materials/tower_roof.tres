@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cv04e6x3hspv7"]
+
+[resource]
+resource_name = "tower_roof"
+cull_mode = 2
+roughness = 0.8

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bnqremsutyp2h"]
+
+[resource]
+resource_name = "pizza_corner"
+cull_mode = 2
+albedo_color = Color(0.960782, 0.584314, 0.317647, 1)
+roughness = 0.8
+emission_enabled = true
+emission = Color(0.705916, 0.616377, 0.273877, 1)

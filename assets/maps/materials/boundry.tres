@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cwpmgq3vxut7i"]
+
+[resource]
+resource_name = "boundry"
+cull_mode = 2
+albedo_color = Color(0.955795, 0.923737, 0.898269, 1)

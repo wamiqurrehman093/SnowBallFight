@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bcd1m5q6cw5n5"]
+
+[resource]
+resource_name = "burger_shop_walls"
+cull_mode = 2
+albedo_color = Color(0.909066, 0.890071, 0.7333, 1)
+roughness = 0.5

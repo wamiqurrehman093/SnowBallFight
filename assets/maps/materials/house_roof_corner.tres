@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c7wf33o64ibl3"]
+
+[resource]
+resource_name = "house_roof_corner"
+cull_mode = 2
+albedo_color = Color(0.715179, 0.513534, 0.227927, 1)

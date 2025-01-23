@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cry0l1hqd85fu"]
+
+[resource]
+resource_name = "train_bin_wall_corner"
+cull_mode = 2
+albedo_color = Color(0.859613, 0.728213, 0.357012, 1)
+roughness = 0.8

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bc43cof4rwvor"]
+
+[resource]
+resource_name = "house_door_window_frame"
+cull_mode = 2
+albedo_color = Color(0.499989, 0.408005, 0.296749, 1)

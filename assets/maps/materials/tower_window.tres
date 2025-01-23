@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bufytjit7ekw0"]
+
+[resource]
+resource_name = "tower_window"
+cull_mode = 2
+albedo_color = Color(0.756863, 1, 0.913725, 1)
+metallic = 0.4
+roughness = 0.2
+emission_enabled = true
+emission = Color(0.755523, 1, 0.913415, 1)
+emission_energy_multiplier = 0.75

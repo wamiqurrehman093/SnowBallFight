@@ -1,0 +1,475 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://sai3up2ivarg"
+path="res://.godot/imported/snow_map_1.glb-16145907cf7feafe96de216877c426dc.scn"
+
+[deps]
+
+source_file="res://assets/maps/snow_map_1.glb"
+dest_files=["res://.godot/imported/snow_map_1.glb-16145907cf7feafe96de216877c426dc.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"materials": {
+"barber_shop_bench": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/barber_shop_bench.tres"
+},
+"barber_shop_menu": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/barber_shop_menu.tres"
+},
+"barber_shop_roof_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/barber_shop_roof_top.tres"
+},
+"barber_shop_walls": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/barber_shop_walls.tres"
+},
+"barber_shop_walls_sides": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/barber_shop_walls_sides.tres"
+},
+"barber_shop_walls_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/barber_shop_walls_top.tres"
+},
+"barber_shop_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/barber_shop_window.tres"
+},
+"barber_shop_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/barber_shop_window_frame.tres"
+},
+"boundry": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/boundry.tres"
+},
+"burger_bread": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_bread.tres"
+},
+"burger_kabab": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_kabab.tres"
+},
+"burger_salad": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_salad.tres"
+},
+"burger_shop_door_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_door_frame.tres"
+},
+"burger_shop_door_windows": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_door_windows.tres"
+},
+"burger_shop_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_top.tres"
+},
+"burger_shop_walls": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_walls.tres"
+},
+"burger_shop_walls_edges": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_walls_edges.tres"
+},
+"burger_shop_walls_edges_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_walls_edges_top.tres"
+},
+"burger_shop_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_window.tres"
+},
+"burger_shop_window_cover_color_1": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_window_cover_color_1.tres"
+},
+"burger_shop_window_cover_color_2": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_window_cover_color_2.tres"
+},
+"burger_shop_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/burger_shop_window_frame.tres"
+},
+"hospital_roof": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hospital_roof.tres"
+},
+"hospital_wall_corners": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hospital_wall_corners.tres"
+},
+"hospital_walls": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hospital_walls.tres"
+},
+"hospital_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hospital_window.tres"
+},
+"hospital_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hospital_window_frame.tres"
+},
+"hotel_billboard": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_billboard.tres"
+},
+"hotel_billboard_front": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_billboard_front.tres"
+},
+"hotel_roof": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_roof.tres"
+},
+"hotel_walls": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_walls.tres"
+},
+"hotel_walls_side": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_walls_side.tres"
+},
+"hotel_walls_side_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_walls_side_top.tres"
+},
+"hotel_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_window.tres"
+},
+"hotel_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_window_frame.tres"
+},
+"hotel_window_frame_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_window_frame_top.tres"
+},
+"hotel_window_frame_top_side": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/hotel_window_frame_top_side.tres"
+},
+"house_door": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/house_door.tres"
+},
+"house_door_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/house_door_window_frame.tres"
+},
+"house_roof_center": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/house_roof_center.tres"
+},
+"house_roof_corner": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/house_roof_corner.tres"
+},
+"house_wall": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/house_wall.tres"
+},
+"house_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/house_window.tres"
+},
+"ice": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice.tres"
+},
+"ice_cream_color_1": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice_cream_color_1.tres"
+},
+"ice_cream_color_2": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice_cream_color_2.tres"
+},
+"ice_cream_cone": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice_cream_cone.tres"
+},
+"ice_cream_holder": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice_cream_holder.tres"
+},
+"ice_cream_shop_roof": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice_cream_shop_roof.tres"
+},
+"ice_cream_shop_wall": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice_cream_shop_wall.tres"
+},
+"ice_cream_shop_wall_corner": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice_cream_shop_wall_corner.tres"
+},
+"ice_cream_shop_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice_cream_shop_window.tres"
+},
+"ice_cream_shop_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/ice_cream_shop_window_frame.tres"
+},
+"lake_railings": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/lake_railings.tres"
+},
+"lake_railings_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/lake_railings_top.tres"
+},
+"lake_wall": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/lake_wall.tres"
+},
+"leaves": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/leaves.tres"
+},
+"library_boxes_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/library_boxes_top.tres"
+},
+"library_roof_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/library_roof_top.tres"
+},
+"library_stairs": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/library_stairs.tres"
+},
+"library_stairs_railing": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/library_stairs_railing.tres"
+},
+"library_walls": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/library_walls.tres"
+},
+"library_walls_corner": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/library_walls_corner.tres"
+},
+"library_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/library_window.tres"
+},
+"mall_bottom_wall": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/mall_bottom_wall.tres"
+},
+"mall_roof_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/mall_roof_top.tres"
+},
+"mall_top_wall": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/mall_top_wall.tres"
+},
+"mall_wall_corner": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/mall_wall_corner.tres"
+},
+"mall_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/mall_window.tres"
+},
+"mall_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/mall_window_frame.tres"
+},
+"office_roof": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/office_roof.tres"
+},
+"office_wall_corner": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/office_wall_corner.tres"
+},
+"office_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/office_window.tres"
+},
+"office_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/office_window_frame.tres"
+},
+"pizza": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza.tres"
+},
+"pizza_corner": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_corner.tres"
+},
+"pizza_shop_door": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_shop_door.tres"
+},
+"pizza_shop_door_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_shop_door_frame.tres"
+},
+"pizza_shop_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_shop_frame.tres"
+},
+"pizza_shop_roof_front": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_shop_roof_front.tres"
+},
+"pizza_shop_roof_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_shop_roof_top.tres"
+},
+"pizza_shop_walls": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_shop_walls.tres"
+},
+"pizza_shop_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_shop_window.tres"
+},
+"pizza_shop_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_shop_window_frame.tres"
+},
+"pizza_toppings": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/pizza_toppings.tres"
+},
+"railway_line": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/railway_line.tres"
+},
+"road": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/road.tres"
+},
+"school_billboard": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/school_billboard.tres"
+},
+"school_door_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/school_door_frame.tres"
+},
+"school_entrance_center": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/school_entrance_center.tres"
+},
+"school_entrance_front": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/school_entrance_front.tres"
+},
+"school_roof": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/school_roof.tres"
+},
+"school_wall_edges": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/school_wall_edges.tres"
+},
+"school_wall_edges_top": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/school_wall_edges_top.tres"
+},
+"school_walls": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/school_walls.tres"
+},
+"school_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/school_window.tres"
+},
+"tower_billboard": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/tower_billboard.tres"
+},
+"tower_edges": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/tower_edges.tres"
+},
+"tower_entrance": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/tower_entrance.tres"
+},
+"tower_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/tower_frame.tres"
+},
+"tower_roof": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/tower_roof.tres"
+},
+"tower_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/tower_window.tres"
+},
+"train_bin_roof": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/train_bin_roof.tres"
+},
+"train_bin_wall": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/train_bin_wall.tres"
+},
+"train_bin_wall_corner": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/train_bin_wall_corner.tres"
+},
+"train_bin_window": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/train_bin_window.tres"
+},
+"train_bin_window_frame": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/train_bin_window_frame.tres"
+},
+"train_tire": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/train_tire.tres"
+},
+"trunk": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/maps/materials/trunk.tres"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1

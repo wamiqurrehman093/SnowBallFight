@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://fr3kqh4dk4va"]
+
+[resource]
+resource_name = "ice_cream_cone"
+cull_mode = 2
+albedo_color = Color(0.924191, 0.818659, 0.217125, 1)
+roughness = 0.9

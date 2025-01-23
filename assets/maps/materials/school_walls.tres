@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bj5jmsw4x0ogb"]
+
+[resource]
+resource_name = "school_walls"
+cull_mode = 2
+albedo_color = Color(0.537099, 0.537099, 0.537099, 1)

@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://nlje2a5m1vb6"]
+
+[resource]
+resource_name = "mall_wall_corner"
+cull_mode = 2
+albedo_color = Color(0.701411, 0.701411, 0.701411, 1)
+roughness = 0.8

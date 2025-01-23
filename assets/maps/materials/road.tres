@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://brottte7clv36"]
+
+[resource]
+resource_name = "road"
+cull_mode = 2
+albedo_color = Color(0.34919, 0.34919, 0.34919, 1)

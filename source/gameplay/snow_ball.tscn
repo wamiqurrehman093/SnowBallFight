@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://dypdtfh2wt20i"]
+
+[ext_resource type="Script" path="res://source/gameplay/snow_ball.gd" id="1_t8fkj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_swfqx"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_udp0c"]
+radius = 0.05
+height = 0.1
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_gosp5"]
+radius = 0.05
+
+[node name="snow_ball" type="Area3D"]
+script = ExtResource("1_t8fkj")
+
+[node name="mesh" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_swfqx")
+mesh = SubResource("SphereMesh_udp0c")
+
+[node name="shape" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_gosp5")
+
+[node name="life_timer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+autostart = true

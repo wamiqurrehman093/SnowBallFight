@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://dq6xmqej1u8ih"]
+
+[ext_resource type="Script" path="res://source/network/server.gd" id="1_5f4mi"]
+[ext_resource type="Script" path="res://source/network/players.gd" id="2_xqm5y"]
+[ext_resource type="Script" path="res://source/network/lobbies.gd" id="3_vjfl8"]
+[ext_resource type="Script" path="res://source/network/games.gd" id="4_kuw1x"]
+
+[node name="server" type="Node2D"]
+script = ExtResource("1_5f4mi")
+
+[node name="players" type="Node2D" parent="."]
+script = ExtResource("2_xqm5y")
+
+[node name="lobbies" type="Node2D" parent="."]
+script = ExtResource("3_vjfl8")
+
+[node name="games" type="Node2D" parent="lobbies"]
+script = ExtResource("4_kuw1x")

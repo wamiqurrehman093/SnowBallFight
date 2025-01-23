@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c73kgs83ahq0d"]
+
+[resource]
+resource_name = "school_wall_edges"
+cull_mode = 2
+albedo_color = Color(0.735357, 0.735357, 0.735357, 1)

@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b3lnr67eycd5u"]
+
+[resource]
+resource_name = "tower_billboard"
+cull_mode = 2
+albedo_color = Color(0.931816, 1, 0.975248, 1)
+roughness = 0.8
+emission_enabled = true
+emission = Color(0.982259, 1, 0.986693, 1)
+emission_energy_multiplier = 1.06797

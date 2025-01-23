@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://vl7m0yy3qxhc"]
+
+[resource]
+resource_name = "hospital_window"
+cull_mode = 2
+albedo_color = Color(0.59574, 0.88442, 0.906348, 1)
+roughness = 0.2
+emission_enabled = true
+emission = Color(0.629439, 1, 0.95149, 1)
+emission_energy_multiplier = 2.0

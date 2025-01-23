@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bmj10uysgstec"]
+
+[resource]
+resource_name = "ice_cream_shop_window_frame"
+cull_mode = 2
+albedo_color = Color(0.583831, 0.583831, 0.583831, 1)
+metallic = 0.2
+roughness = 0.3

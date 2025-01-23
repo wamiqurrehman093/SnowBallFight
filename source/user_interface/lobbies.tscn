@@ -1,0 +1,122 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwc6s21ie7was"]
+
+[ext_resource type="Script" path="res://source/user_interface/lobbies.gd" id="1_7vfft"]
+[ext_resource type="Script" path="res://source/user_interface/lobbies_container.gd" id="2_6iwjq"]
+[ext_resource type="PackedScene" uid="uid://bwtgpurh83e1" path="res://source/user_interface/lobby_creation_menu.tscn" id="2_l76bl"]
+
+[node name="lobbies" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7vfft")
+
+[node name="background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.760605, 0.887918, 0.955723, 1)
+
+[node name="margin_container" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="content" type="VBoxContainer" parent="margin_container"]
+layout_mode = 2
+
+[node name="header" type="HBoxContainer" parent="margin_container/content"]
+layout_mode = 2
+
+[node name="title" type="Label" parent="margin_container/content/header"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 56
+text = "Lobbies"
+vertical_alignment = 1
+
+[node name="create" type="Button" parent="margin_container/content/header"]
+custom_minimum_size = Vector2(256, 0)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 32
+text = "+ Create"
+
+[node name="lobbies_info_header" type="HBoxContainer" parent="margin_container/content"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="name" type="Label" parent="margin_container/content/lobbies_info_header"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Name"
+
+[node name="max_players" type="Label" parent="margin_container/content/lobbies_info_header"]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Max Players"
+horizontal_alignment = 1
+
+[node name="players_joined" type="Label" parent="margin_container/content/lobbies_info_header"]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Players Joined"
+horizontal_alignment = 1
+
+[node name="requires_password" type="Label" parent="margin_container/content/lobbies_info_header"]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Password"
+horizontal_alignment = 1
+
+[node name="join" type="Label" parent="margin_container/content/lobbies_info_header"]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+horizontal_alignment = 1
+
+[node name="lobbies_scrollbox" type="ScrollContainer" parent="margin_container/content"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="lobbies_container" type="VBoxContainer" parent="margin_container/content/lobbies_scrollbox"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("2_6iwjq")
+
+[node name="back" type="Button" parent="margin_container/content"]
+custom_minimum_size = Vector2(256, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 32
+text = "Back"
+
+[node name="overlay" type="CanvasLayer" parent="."]
+
+[node name="lobby_creation_menu" parent="overlay" instance=ExtResource("2_l76bl")]
+visible = false

@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bjqlovuw27jfe"]
+
+[resource]
+resource_name = "school_door_frame"
+cull_mode = 2
+albedo_color = Color(0.620235, 0.735357, 0.710466, 1)
+roughness = 0.1

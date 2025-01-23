@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://yaeil0vdpy5t"]
+
+[resource]
+resource_name = "train_bin_window_frame"
+cull_mode = 2
+albedo_color = Color(0.583831, 0.428119, 0.206, 1)
+roughness = 0.8

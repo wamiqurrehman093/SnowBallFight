@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cveolp5hmdjsx"]
+
+[resource]
+resource_name = "school_entrance_center"
+cull_mode = 2
+albedo_color = Color(0.50083, 0.748978, 0.854306, 1)
+roughness = 0.5

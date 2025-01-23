@@ -1,0 +1,153 @@
+[gd_scene load_steps=3 format=3 uid="uid://7of47etwaqxn"]
+
+[ext_resource type="Script" path="res://source/map/map.gd" id="1_tpq3p"]
+
+[sub_resource type="Environment" id="Environment_wmjjm"]
+background_mode = 1
+background_color = Color(0.868985, 0.868985, 0.868985, 1)
+ambient_light_color = Color(1, 1, 1, 1)
+
+[node name="map" type="Node3D"]
+script = ExtResource("1_tpq3p")
+
+[node name="sun_light" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.836516, 0.258819, -0.482963, -0.224144, 0.965926, 0.12941, 0.5, 0, 0.866025, 0, 0, 0)
+light_energy = 0.5
+shadow_enabled = true
+
+[node name="world_environment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_wmjjm")
+
+[node name="player_spawns" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="spawn_1" type="Marker3D" parent="player_spawns"]
+
+[node name="spawn_2" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 2)
+
+[node name="spawn_3" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 2)
+
+[node name="spawn_4" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -2)
+
+[node name="spawn_5" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="spawn_6" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -5)
+
+[node name="spawn_7" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -6)
+
+[node name="spawn_8" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -9)
+
+[node name="spawn_9" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -11)
+
+[node name="spawn_10" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -13)
+
+[node name="spawn_11" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -14)
+
+[node name="spawn_12" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, -10)
+
+[node name="spawn_13" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, -6)
+
+[node name="spawn_14" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 0)
+
+[node name="spawn_15" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, 4)
+
+[node name="spawn_16" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 10)
+
+[node name="spawn_17" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 12)
+
+[node name="spawn_18" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, 14)
+
+[node name="spawn_19" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 13)
+
+[node name="spawn_20" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 10)
+
+[node name="spawn_21" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 12)
+
+[node name="spawn_22" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 9)
+
+[node name="spawn_23" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 7)
+
+[node name="spawn_24" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 10)
+
+[node name="spawn_25" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 12)
+
+[node name="spawn_26" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 6)
+
+[node name="spawn_27" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 7)
+
+[node name="spawn_28" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 4)
+
+[node name="spawn_29" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 4)
+
+[node name="spawn_30" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 5)
+
+[node name="spawn_31" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 7)
+
+[node name="spawn_32" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 2)
+
+[node name="spawn_33" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -3)
+
+[node name="spawn_34" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 0)
+
+[node name="spawn_35" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -5)
+
+[node name="spawn_36" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, -9)
+
+[node name="spawn_37" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, -13)
+
+[node name="spawn_38" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8)
+
+[node name="spawn_39" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -9)
+
+[node name="spawn_40" type="Marker3D" parent="player_spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -13)
+
+[node name="players" type="Node3D" parent="."]
+
+[node name="local_player" type="Node3D" parent="players"]
+
+[node name="network_players" type="Node3D" parent="players"]
+
+[node name="snow_balls" type="Node3D" parent="."]
+
+[node name="local_snow_balls" type="Node3D" parent="snow_balls"]
+
+[node name="network_snow_balls" type="Node3D" parent="snow_balls"]

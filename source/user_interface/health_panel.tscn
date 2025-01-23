@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://d213e4dimovxf"]
+
+[node name="health_panel" type="Panel"]
+custom_minimum_size = Vector2(192, 40)
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_right = 140.0
+grow_vertical = 0
+
+[node name="margin_container" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_right = 4
+
+[node name="health" type="HBoxContainer" parent="margin_container"]
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="label" type="Label" parent="margin_container/health"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Health"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="value" type="Label" parent="margin_container/health"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1

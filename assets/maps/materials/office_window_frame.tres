@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bj0oaaxd3lego"]
+
+[resource]
+resource_name = "office_window_frame"
+cull_mode = 2
+albedo_color = Color(0.735357, 0.735357, 0.735357, 1)
+metallic = 0.1
+roughness = 0.8

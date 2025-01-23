@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bjuwbta7kfv2i"]
+
+[resource]
+resource_name = "train_bin_wall"
+cull_mode = 2
+albedo_color = Color(0.803794, 0.666349, 0.392144, 1)
+roughness = 0.8

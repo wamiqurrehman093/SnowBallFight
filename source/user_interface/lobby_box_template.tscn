@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3 uid="uid://q0ueicavh1y1"]
+
+[ext_resource type="Script" path="res://source/user_interface/lobby_box_template.gd" id="1_o4f4l"]
+
+[node name="lobby_template" type="HBoxContainer"]
+custom_minimum_size = Vector2(1136, 36)
+theme_override_constants/separation = 8
+script = ExtResource("1_o4f4l")
+
+[node name="name" type="Label" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Lobby 1"
+
+[node name="max_players" type="Label" parent="."]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "8"
+horizontal_alignment = 1
+
+[node name="players_joined" type="Label" parent="."]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "4"
+horizontal_alignment = 1
+
+[node name="requires_password" type="Label" parent="."]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Yes"
+horizontal_alignment = 1
+
+[node name="join" type="Button" parent="."]
+custom_minimum_size = Vector2(192, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Join"

@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=3 uid="uid://2ixjt4ngdntq"]
+
+[ext_resource type="Script" path="res://source/user_interface/message_box.gd" id="1_qk6uu"]
+
+[node name="message_box" type="VBoxContainer"]
+custom_minimum_size = Vector2(360, 240)
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -240.0
+offset_right = 360.0
+grow_vertical = 0
+script = ExtResource("1_qk6uu")
+
+[node name="messages_panel" type="Panel" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="margin_container" type="MarginContainer" parent="messages_panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="messages_scrollbox" type="ScrollContainer" parent="messages_panel/margin_container"]
+layout_mode = 2
+
+[node name="messages" type="VBoxContainer" parent="messages_panel/margin_container/messages_scrollbox"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="new_message_box" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+
+[node name="new_message" type="LineEdit" parent="new_message_box"]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "new message..."
+
+[node name="submit" type="Button" parent="new_message_box"]
+layout_mode = 2
+focus_mode = 0
+text = "Submit"

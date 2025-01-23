@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://46ka35y3fehf"]
+
+[resource]
+resource_name = "ice_cream_shop_wall"
+cull_mode = 2
+albedo_color = Color(1, 0.944276, 0.880589, 1)
+roughness = 0.8

@@ -1,0 +1,57 @@
+[gd_scene load_steps=2 format=3 uid="uid://maj2f5qn4sth"]
+
+[ext_resource type="Script" path="res://source/user_interface/pause_menu_panel.gd" id="1_nfonf"]
+
+[node name="pause_menu_panel" type="Panel"]
+custom_minimum_size = Vector2(480, 192)
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_nfonf")
+
+[node name="margin_container" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="menu" type="VBoxContainer" parent="margin_container"]
+layout_mode = 2
+alignment = 1
+
+[node name="label" type="Label" parent="margin_container/menu"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Pause Menu"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="spacer" type="ColorRect" parent="margin_container/menu"]
+custom_minimum_size = Vector2(0, 1)
+layout_mode = 2
+
+[node name="resume" type="Button" parent="margin_container/menu"]
+custom_minimum_size = Vector2(240, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 20
+text = "Resume"
+
+[node name="main_menu" type="Button" parent="margin_container/menu"]
+custom_minimum_size = Vector2(240, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 20
+text = "Main Menu"
+
+[node name="quit_game" type="Button" parent="margin_container/menu"]
+custom_minimum_size = Vector2(240, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 20
+text = "Quit"
